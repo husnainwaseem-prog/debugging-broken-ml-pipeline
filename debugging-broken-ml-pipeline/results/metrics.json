@@ -1,0 +1,35 @@
+{
+  "broken_reported_accuracy": 1.0,
+  "broken_honest_metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1": 0.0,
+    "confusion_matrix": [
+      [
+        400,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "roc_auc": null
+  },
+  "fixed_metrics": {
+    "accuracy": 0.6775,
+    "balanced_accuracy": 0.6537374593754416,
+    "f1": 0.37681159420289856,
+    "confusion_matrix": [
+      [
+        232,
+        105
+      ],
+      [
+        24,
+        39
+      ]
+    ],
+    "roc_auc": 0.7397202204323865
+  }
+}
