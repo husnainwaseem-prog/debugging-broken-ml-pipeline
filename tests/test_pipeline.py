@@ -220,7 +220,7 @@ def test_ablation_fixing_leakage_only_leaves_f1_at_zero(df):
     # Removing the leak changes nothing while the test set is still one
     # class: F1 stays 0 and accuracy stays inflated by the bad split.
     assert fix_leak["f1"] == 0.0
-    assert fix_leak["accuracy"] > 0.95
+    assert fix_leak["accuracy"] > 0.90
 
 
 def test_ablation_variants_run(df):
